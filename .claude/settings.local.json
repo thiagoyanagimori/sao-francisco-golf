@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Copy-Item \"d:\\\\golf\\\\logo.png\" \"d:\\\\golf\\\\public\\\\logo.png\" -Force)",
+      "Bash(Write-Host \"Copied\")",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\(\"d:\\\\golf\\\\logo.png\"\\); Write-Host \"Width: $\\($img.Width\\), Height: $\\($img.Height\\)\"; $img.Dispose\\(\\))",
+      "Bash(npx tsc *)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Bitmap]::FromFile\\(\"C:\\\\Users\\\\thiag\\\\AppData\\\\Local\\\\Temp\\\\05cd4576-ff5b-49d3-866a-15f8578305f8.png\"\\); $px = $img.GetPixel\\([int]\\($img.Width/2\\), [int]\\($img.Height/2\\)\\); Write-Host \"R:$\\($px.R\\) G:$\\($px.G\\) B:$\\($px.B\\) | Hex: #$\\('{0:X2}{1:X2}{2:X2}' -f $px.R,$px.G,$px.B\\)\"; $img.Dispose\\(\\))",
+      "PowerShell($files = @\\(\"3cdbc342-fc12-4216-aac0-fdc1657a8140\",\"f6251578-3456-4f2f-a62a-145dce51fbac\",\"05cd4576-ff5b-49d3-866a-15f8578305f8\"\\); Add-Type -AssemblyName System.Drawing; foreach \\($f in $files\\) { $path = \"C:\\\\Users\\\\thiag\\\\AppData\\\\Local\\\\Temp\\\\$f.png\"; $img = [System.Drawing.Bitmap]::FromFile\\($path\\); $px = $img.GetPixel\\([int]\\($img.Width/2\\), [int]\\($img.Height/2\\)\\); Write-Host \"$f => R:$\\($px.R\\) G:$\\($px.G\\) B:$\\($px.B\\) Hex:#$\\('{0:X2}{1:X2}{2:X2}' -f $px.R,$px.G,$px.B\\)\"; $img.Dispose\\(\\) })",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $path = \"C:\\\\Users\\\\thiag\\\\AppData\\\\Local\\\\Temp\\\\{0705810B-6186-4D96-96B6-4C9A4EFF7754}.png\"; $img = [System.Drawing.Bitmap]::FromFile\\($path\\); $px = $img.GetPixel\\([int]\\($img.Width/2\\), [int]\\($img.Height/2\\)\\); Write-Host \"Size: $\\($img.Width\\)x$\\($img.Height\\) | R:$\\($px.R\\) G:$\\($px.G\\) B:$\\($px.B\\) Hex:#$\\('{0:X2}{1:X2}{2:X2}' -f $px.R,$px.G,$px.B\\)\"; $img.Dispose\\(\\))"
+    ]
+  }
+}
