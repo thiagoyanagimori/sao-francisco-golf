@@ -129,7 +129,7 @@ export default function HistorySection() {
         {/* Cinematic image */}
         <div className="hs-reveal relative mb-40 overflow-hidden" style={{ aspectRatio: '16 / 6' }}>
           <img
-            src="casa.jpg"
+            src="/images/casa.jpg"
             alt="Vista aérea do campo do São Francisco Golf Club"
             className="w-full h-full object-cover"
             style={{ filter: 'brightness(0.6) saturate(0.8)' }}

@@ -38,8 +38,8 @@ const FEATURES: { title: string; desc?: string; items?: string[] }[] = [
 ]
 
 const CAROUSEL_IMAGES = [
-  { src: 'campo.jpg', alt: 'Mapa do campo — São Francisco Golf Club' },
-  { src: 'tabela.png', alt: 'Tabela do campo — São Francisco Golf Club' },
+  { src: '/images/campo.jpg', alt: 'Mapa do campo — São Francisco Golf Club' },
+  { src: '/images/tabela.png', alt: 'Tabela do campo — São Francisco Golf Club' },
 ]
 
 export default function CourseSection() {

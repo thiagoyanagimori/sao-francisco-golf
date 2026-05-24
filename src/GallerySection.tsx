@@ -9,12 +9,12 @@ const MONO = "'DM Mono', monospace"
 const GOLD = 'rgba(197, 164, 101, 0.75)'
 
 const IMAGES = [
-  { src: '1.jpg', caption: 'Tradição cercada pela natureza.' },
-  { src: '2.jpg', caption: 'Greens em meio à mata preservada.' },
-  { src: '3.jpg', caption: 'Precisão e exclusividade.' },
-  { src: '4.jpg', caption: 'Natureza em estado puro.' },
-  { src: '5.jpg', caption: 'Paisagens únicas do campo.' },
-  { src: '6.jpg', caption: 'Elegância e sofisticação.' },
+  { src: '/images/1.jpg', caption: 'Tradição cercada pela natureza.' },
+  { src: '/images/2.jpg', caption: 'Greens em meio à mata preservada.' },
+  { src: '/images/3.jpg', caption: 'Precisão e exclusividade.' },
+  { src: '/images/4.jpg', caption: 'Natureza em estado puro.' },
+  { src: '/images/5.jpg', caption: 'Paisagens únicas do campo.' },
+  { src: '/images/6.jpg', caption: 'Elegância e sofisticação.' },
 ]
 
 export default function GallerySection() {
