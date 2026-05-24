@@ -172,7 +172,7 @@ export default function HeroSequence() {
             className="text-white/30 text-[10px] tracking-[0.5em] uppercase mb-2"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            Loading frames
+            Carregando experiência
           </div>
           <div className="w-48 h-px bg-white/10 relative overflow-hidden">
             <div
