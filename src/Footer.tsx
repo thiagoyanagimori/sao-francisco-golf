@@ -1,4 +1,3 @@
-const SERIF = "'Cormorant Garamond', Georgia, serif"
 const MONO = "'DM Mono', monospace"
 const GOLD = 'rgba(197, 164, 101, 0.6)'
 
@@ -239,14 +238,13 @@ export default function Footer() {
           </p>
           <p
             style={{
-              fontFamily: SERIF,
-              fontSize: '0.85rem',
-              fontStyle: 'italic',
-              letterSpacing: '0.05em',
-              color: 'rgba(255,255,255,0.1)',
+              fontFamily: MONO,
+              fontSize: '9px',
+              letterSpacing: '0.18em',
+              color: 'rgba(255,255,255,0.15)',
             }}
           >
-            Desde 1935
+            Developed by thiagoyanagimori
           </p>
         </div>
       </div>
